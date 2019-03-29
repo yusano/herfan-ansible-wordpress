@@ -1,0 +1,7 @@
+env           : "herfan-devops-test"
+aws_region    : "ap-southeast-1"
+instance_type : "t2.micro"
+#instance_count: {{ instance_count }}
+ami           : "ami-0dad20bd1b9c8c004"
+keypair       : "herfan"
+group_id      : "sg-3e46af59"
