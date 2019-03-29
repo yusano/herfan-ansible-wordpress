@@ -1,6 +1,4 @@
-# Garena Blog Deployment Instructions
-
-You must create security group manualy and provide it on ec2 role
+#1.
 
 To provision Blog please execute this command
 
@@ -8,3 +6,5 @@ To provision Blog please execute this command
 $ AWS_ACCESS_KEY_ID=xxx AWS_SECRET_ACCESS_KEY=yyy setup.sh 
 ``` 
 
+
+# 2. You must create the security group manualy then provide it to ec2 role 
